@@ -1,0 +1,140 @@
+body {
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	width: 730px;
+	font-size: 11px;
+	color: #333333;
+	padding: 2px;
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5{font-size:13px;color:#333;margin:0px;padding:0px;}
+h1{font-size:14px;}
+h4, h5{font-size:11px;}
+
+/* Input */
+
+.fbbuttonsubmit, .fbbuttonwhite {
+	padding: 15px, 2px, 15px, 3px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px 15px 3px;
+	text-align: center;
+	font-weight: normal;
+	height: 23px;
+}
+
+.fbbuttonsubmit {
+	color: white;
+	border-color: #D9DFEA #0E1F5B #0E1F5B #D9DFEA;
+	background-color: #3B5998;
+}
+
+.fbbuttonwhite {
+	color: #333;
+	border-color: #D9DFEA #0E1F5B #0E1F5B #D9DFEA;
+	background-color: #f7f7f7;
+}
+
+.fbbuttonwhite:hover {
+	text-decoration: none;
+}
+
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+
+hr {
+	border: 0;
+	border-top-color: #bbbbbb;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+td.formlabel {
+	color: #555;
+	font-weight: bold;
+	text-align: right;
+	width: 150px;
+}
+
+select {
+	border: 1px solid #BDC7D8;
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+	padding: 2px;
+}
+
+a
+{
+	color: #3b5998;
+	outline-style: none;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+/* Facebook Box Styles */
+.fbgreybox
+{
+	background-color: #f7f7f7;
+	border: 1px solid #cccccc;
+	color: #333333;
+	padding: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.fbbluebox
+{
+	background-color: #eceff6;
+	border: 1px solid #d4dae8;
+	color: #333333;
+	padding: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.fbinfobox
+{
+	background-color: #fff9d7;
+	border: 1px solid #e2c822;
+	color: #333333;
+	padding: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.fberrorbox
+{
+	background-color: #ffebe8;
+	border: 1px solid #dd3c10;
+	color: #333333;
+	padding: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+/* Content Divider on White Background */
+.fbcontentdivider
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 1px;
+	background-color: #d8dfea;
+}
+/* Facebook Tab Style */
+.fbtab
+{
+	padding: 8px;
+	background-color: #d8dfea;
+	color: #3b5998;
+	font-weight: bold;
+	float: left;
+	margin-right: 4px;
+	text-decoration: none;
+}
+.fbtab:hover
+{
+	background-color: #3b5998;
+	color: #ffffff;
+	cursor: hand;
+}

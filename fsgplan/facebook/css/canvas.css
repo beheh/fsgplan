@@ -1,0 +1,178 @@
+body {
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    width: 730px;
+    font-size: 11px;
+    color: #333333;
+    padding: 20px 0 0 0px;
+    margin: 0;
+    line-height: 14px;
+}
+
+h1, h2, h3, h4, h5{font-size:13px;color:#333;margin:0px;padding:0px}
+h1{font-size:14px; margin-bottom: 8px;}
+h2{margin:18px 0 12px 0;}
+h4, h5{font-size:11px;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {color:inherit;text-decoration:inherit;}
+p {
+    margin: 8px 0;
+}
+
+.fb-like {
+    margin: 8px 0 4px 0;
+}
+
+/* Input */
+
+/*.fbbuttonsubmit, .fbbuttonwhite {
+    padding: 15px 2px 15px 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px 15px 3px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    height: 23px;
+}
+
+.fbbuttonsubmit {
+    color: white;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 0px 0px;
+    border-color: #29447E #29447E #1A356E;
+    background-color: #5B74A8;
+}
+
+.fbbuttonwhite {
+    color: #333;
+    border: 1px solid #999;
+    background-color: #f7f7f7;
+}
+
+.fbbuttonwhite:hover {
+    text-decoration: none;
+}*/
+
+input {
+    margin: 0;
+}
+
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+
+hr {
+    border: 0;
+    border-top-color: #bbbbbb;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+label {
+    color: #555;
+    font-weight: bold;
+    text-align: right;
+    width: 150px;
+}
+
+select {
+    border: 1px solid #BDC7D8;
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-size: 11px;
+    padding: 2px;
+}
+
+a
+{
+    color: #3b5998;
+    outline-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover, a:focus
+{
+    text-decoration: underline;
+}
+
+/* Facebook Box Styles */
+
+.fbgreybox
+{
+    background-color: #f7f7f7;
+    border: 1px solid #cccccc;
+    color: #333333;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.fbbluebox
+{
+    background-color: #eceff6;
+    border: 1px solid #d4dae8;
+    color: #333333;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.fbinfobox
+{
+    background-color: #fff9d7;
+    border: 1px solid #e2c822;
+    color: #333333;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.fberrorbox
+{
+    background-color: #ffebe8;
+    border: 1px solid #dd3c10;
+    color: #333333;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Other */
+
+table {
+    padding-left: 24px;
+}
+
+tr *, td * {
+    vertical-align: middle;
+}
+
+tr {
+    height: 28px;
+}
+
+tr.button {
+    height: 38px;
+}
+
+#content {
+    padding: 0;
+    margin: 0;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.footer {
+	margin-top: 12px;
+    float: right;
+    color: gray;
+}
+
+.footer a {
+    color: inherit;
+    font-weight: inherit;
+}
+
+td {
+	padding-right: 2px;
+}

@@ -1,0 +1,2 @@
+ErrorDocument 404 /projects/fsgapi/fsgplan/facebook/?c=error
+ErrorDocument 403 /projects/fsgapi/fsgplan/facebook/?c=error
